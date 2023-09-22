@@ -7,7 +7,7 @@ public class Main {
   JFrame frame = new JFrame("pluh");
     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     frame.setSize(400,400);
-    frame.setVisible(true);
+    
 
     JLabel label = new JLabel("just a label");
     label.setHorizontalAlignment(JLabel.CENTER);
@@ -26,6 +26,7 @@ public class Main {
 
     frame.getContentPane().setBackground(Color.CYAN);
     frame.setLocationRelativeTo(null);
+    frame.setVisible(true);
   }
 }
 
