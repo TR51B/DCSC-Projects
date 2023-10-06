@@ -14,7 +14,12 @@ public class WeatherApp {
     private WeatherPanel weatherPanel;
 
     public WeatherApp() {
-
+        new JFrame(); //creates a frame
+        frame.setTitle("JFrame title goes here"); //sets title of frame
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); //exit out of application
+        frame.setResizable(false); // prevent file from being resized
+        frame.setSize(420,420); // sets the x-dimention, and y-dimention of frame
+        frame.setVisible(true); //make frame visible
     }
 
     private String fetchDataFromAPI() {
@@ -39,5 +44,5 @@ class WeatherPanel extends JPanel {
 
 }
 
-
+// branch
 
